@@ -1,0 +1,163 @@
+7.0155 	EXP 	Created window1 = Window(allowGUI=False, allowStencil=False, args=UNKNOWN, autoLog=True, bitsMode=UNKNOWN, blendMode='avg', color=array([0., 0., 0.]), colorSpace='rgb', fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x0000025CF5717550>, gamma=None, kwargs=UNKNOWN, lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x0000025CF57105C0>, multiSample=False, name='window1', numSamples=2, pos=[0.0, 0.0], screen=0, size=array([1920, 1080]), stereo=False, units='height', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+7.0156 	EXP 	window1: recordFrameIntervals = False
+7.1813 	EXP 	window1: recordFrameIntervals = True
+7.3654 	EXP 	window1: recordFrameIntervals = False
+7.6911 	EXP 	Created Welcome = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='black', colorSpace='named', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='Welcome', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([0., 0., 0.]), text=str(...), units='height', win=Window(...), wrapWidth=1)
+7.7086 	EXP 	Created basicOverview = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='black', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='basicOverview', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([0., 0., 0.]), text=str(...), units='height', win=Window(...), wrapWidth=1)
+7.7428 	EXP 	Created basicOverview1 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='black', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='basicOverview1', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([0., 0., 0.]), text=str(...), units='height', win=Window(...), wrapWidth=1)
+7.8230 	EXP 	Created basicOverview2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='black', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.04, italic=False, languageStyle='LTR', name='basicOverview2', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([0., 0., 0.]), text=str(...), units='height', win=Window(...), wrapWidth=1)
+7.8529 	EXP 	Created basicOverview3 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='black', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='basicOverview3', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([0., 0., 0.]), text=str(...), units='height', win=Window(...), wrapWidth=1)
+7.8822 	EXP 	Created basicOverview4 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='black', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='basicOverview4', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([0., 0., 0.]), text=str(...), units='height', win=Window(...), wrapWidth=1)
+7.9377 	EXP 	Created examples = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='black', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.04, italic=False, languageStyle='LTR', name='examples', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([0., 0., 0.]), text=str(...), units='height', win=Window(...), wrapWidth=1)
+7.9658 	EXP 	Created blockStartInstructions = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='black', colorSpace='named', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='blockStartInstructions', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([0., 0., 0.]), text=str(...), units='height', win=Window(...), wrapWidth=1)
+7.9772 	EXP 	Created PreCueFixation = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='black', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='PreCueFixation', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([0., 0., 0.]), text='+', units='height', win=Window(...), wrapWidth=1)
+7.9963 	EXP 	Created CueStimulus = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='black', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='CueStimulus', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([0., 0., 0.]), text='default text', units='height', win=Window(...), wrapWidth=1)
+8.0006 	EXP 	Created PreTargetFixation = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='black', colorSpace='named', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='PreTargetFixation', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([0., 0., 0.]), text='+ + +', units='height', win=Window(...), wrapWidth=1)
+8.0068 	EXP 	Created ProbetStimulus = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='black', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='ProbetStimulus', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([0., 0., 0.]), text='default text', units='height', win=Window(...), wrapWidth=1)
+8.0450 	EXP 	Welcome: autoDraw = True
+8.4259 	DATA 	Keypress: space
+8.4320 	EXP 	Welcome: autoDraw = False
+8.4320 	EXP 	basicOverview: autoDraw = True
+8.8021 	DATA 	Keypress: space
+8.8306 	EXP 	basicOverview: autoDraw = False
+8.8306 	EXP 	basicOverview1: autoDraw = True
+8.9738 	DATA 	Keypress: space
+8.9802 	EXP 	basicOverview1: autoDraw = False
+8.9802 	EXP 	basicOverview2: autoDraw = True
+9.3018 	DATA 	Keypress: space
+9.3297 	EXP 	basicOverview2: autoDraw = False
+9.3297 	EXP 	basicOverview3: autoDraw = True
+10.0063 	DATA 	Keypress: space
+10.0127 	EXP 	basicOverview3: autoDraw = False
+10.0127 	EXP 	basicOverview4: autoDraw = True
+11.1009 	DATA 	Keypress: space
+11.1279 	EXP 	basicOverview4: autoDraw = False
+11.1279 	EXP 	examples: autoDraw = True
+11.7494 	EXP 	Created sequence: random, trialTypes=1, nReps=5, seed=None
+11.7501 	EXP 	New trial (rep=0, index=0): None
+11.7573 	DATA 	Keypress: space
+11.7629 	EXP 	examples: autoDraw = False
+11.7629 	EXP 	blockStartInstructions: autoDraw = True
+14.0149 	EXP 	Imported conditions/GlobalConditions.xlsx as conditions, 24 conditions, 4 params
+14.0153 	EXP 	Created sequence: random, trialTypes=24, nReps=5, seed=None
+14.0155 	EXP 	New trial (rep=0, index=0): OrderedDict([('ConditionFile', 'conditions/BYList.xlsx'), ('TrialType', 'BY'), ('CorrRespTarget', 1.0), ('CorRespCue', 1)])
+14.0197 	EXP 	Imported conditions\trialTiming.xlsx as conditions, 4 conditions, 2 params
+14.0199 	EXP 	Created sequence: fullRandom, trialTypes=4, nReps=1, seed=None
+14.0201 	EXP 	New trial (rep=0, index=0): OrderedDict([('PreCueTime', 0.5), ('ISI', 2)])
+14.0232 	DATA 	Keypress: space
+14.0270 	EXP 	blockStartInstructions: autoDraw = False
+14.0270 	EXP 	PreCueFixation: autoDraw = True
+14.5385 	EXP 	Imported conditions/BYList.xlsx as conditions, 36 conditions, 3 params
+14.5393 	EXP 	Created sequence: fullRandom, trialTypes=36, nReps=1, seed=None
+14.5399 	EXP 	New trial (rep=0, index=0): OrderedDict([('TrialType', 'BY'), ('Cue', 'P'), ('Probe', 'H')])
+14.5558 	EXP 	PreCueFixation: autoDraw = False
+14.5558 	EXP 	PreCueFixation: autoDraw = False
+14.5558 	EXP 	CueStimulus: text = 'P'
+14.5558 	EXP 	CueStimulus: autoDraw = True
+15.0578 	EXP 	CueStimulus: autoDraw = False
+15.0578 	EXP 	PreTargetFixation: autoDraw = True
+15.6620 	DATA 	Keypress: 1
+17.0702 	EXP 	PreTargetFixation: autoDraw = False
+17.0702 	EXP 	CueStimulus: autoDraw = False
+17.0702 	EXP 	PreTargetFixation: autoDraw = False
+17.0702 	EXP 	ProbetStimulus: text = 'H'
+17.0702 	EXP 	ProbetStimulus: autoDraw = True
+17.5785 	DATA 	Keypress: 1
+18.5473 	EXP 	New trial (rep=0, index=1): OrderedDict([('ConditionFile', 'conditions/BYList.xlsx'), ('TrialType', 'BY'), ('CorrRespTarget', 1.0), ('CorRespCue', 1)])
+18.5622 	EXP 	Imported conditions\trialTiming.xlsx as conditions, 4 conditions, 2 params
+18.5627 	EXP 	Created sequence: fullRandom, trialTypes=4, nReps=1, seed=None
+18.5631 	EXP 	New trial (rep=0, index=0): OrderedDict([('PreCueTime', 0.5), ('ISI', 2)])
+18.5693 	EXP 	ProbetStimulus: autoDraw = False
+18.5693 	EXP 	ProbetStimulus: autoDraw = False
+18.5693 	EXP 	PreCueFixation: autoDraw = True
+19.0844 	EXP 	Imported conditions/BYList.xlsx as conditions, 36 conditions, 3 params
+19.0851 	EXP 	Created sequence: fullRandom, trialTypes=36, nReps=1, seed=None
+19.0858 	EXP 	New trial (rep=0, index=0): OrderedDict([('TrialType', 'BY'), ('Cue', 'M'), ('Probe', 'U')])
+19.1036 	EXP 	PreCueFixation: autoDraw = False
+19.1036 	EXP 	PreCueFixation: autoDraw = False
+19.1036 	EXP 	CueStimulus: text = 'M'
+19.1036 	EXP 	CueStimulus: autoDraw = True
+19.6043 	EXP 	CueStimulus: autoDraw = False
+19.6043 	EXP 	PreTargetFixation: autoDraw = True
+19.6441 	DATA 	Keypress: 1
+21.6187 	EXP 	PreTargetFixation: autoDraw = False
+21.6187 	EXP 	CueStimulus: autoDraw = False
+21.6187 	EXP 	PreTargetFixation: autoDraw = False
+21.6187 	EXP 	ProbetStimulus: text = 'U'
+21.6187 	EXP 	ProbetStimulus: autoDraw = True
+22.2243 	DATA 	Keypress: 1
+23.0939 	EXP 	New trial (rep=0, index=2): OrderedDict([('ConditionFile', 'conditions/AXList.xlsx'), ('TrialType', 'AX'), ('CorrRespTarget', 2.0), ('CorRespCue', 1)])
+23.1128 	EXP 	Imported conditions\trialTiming.xlsx as conditions, 4 conditions, 2 params
+23.1132 	EXP 	Created sequence: fullRandom, trialTypes=4, nReps=1, seed=None
+23.1137 	EXP 	New trial (rep=0, index=0): OrderedDict([('PreCueTime', 1.0), ('ISI', 6)])
+23.1196 	EXP 	ProbetStimulus: autoDraw = False
+23.1196 	EXP 	ProbetStimulus: autoDraw = False
+23.1196 	EXP 	PreCueFixation: autoDraw = True
+24.1437 	EXP 	Imported conditions/AXList.xlsx as conditions, 1 conditions, 3 params
+24.1443 	EXP 	Created sequence: fullRandom, trialTypes=1, nReps=1, seed=None
+24.1449 	EXP 	New trial (rep=0, index=0): OrderedDict([('TrialType', 'AX'), ('Cue', 'A'), ('Probe', 'X')])
+24.1624 	EXP 	PreCueFixation: autoDraw = False
+24.1624 	EXP 	PreCueFixation: autoDraw = False
+24.1624 	EXP 	CueStimulus: text = 'A'
+24.1624 	EXP 	CueStimulus: autoDraw = True
+24.6240 	DATA 	Keypress: 1
+24.6503 	EXP 	CueStimulus: autoDraw = False
+24.6667 	EXP 	PreTargetFixation: autoDraw = True
+30.6762 	EXP 	PreTargetFixation: autoDraw = False
+30.6762 	EXP 	CueStimulus: autoDraw = False
+30.6762 	EXP 	PreTargetFixation: autoDraw = False
+30.6762 	EXP 	ProbetStimulus: text = 'X'
+30.6762 	EXP 	ProbetStimulus: autoDraw = True
+31.0674 	DATA 	Keypress: 2
+32.1511 	EXP 	New trial (rep=0, index=3): OrderedDict([('ConditionFile', 'conditions/AYList.xlsx'), ('TrialType', 'AY'), ('CorrRespTarget', 1.0), ('CorRespCue', 1)])
+32.1719 	EXP 	Imported conditions\trialTiming.xlsx as conditions, 4 conditions, 2 params
+32.1728 	EXP 	Created sequence: fullRandom, trialTypes=4, nReps=1, seed=None
+32.1739 	EXP 	New trial (rep=0, index=0): OrderedDict([('PreCueTime', 1.0), ('ISI', 6)])
+32.1804 	EXP 	ProbetStimulus: autoDraw = False
+32.1804 	EXP 	ProbetStimulus: autoDraw = False
+32.1804 	EXP 	PreCueFixation: autoDraw = True
+33.2048 	EXP 	Imported conditions/AYList.xlsx as conditions, 8 conditions, 3 params
+33.2057 	EXP 	Created sequence: fullRandom, trialTypes=8, nReps=1, seed=None
+33.2065 	EXP 	New trial (rep=0, index=0): OrderedDict([('TrialType', 'AY'), ('Cue', 'A'), ('Probe', 'F')])
+33.2149 	EXP 	PreCueFixation: autoDraw = False
+33.2149 	EXP 	PreCueFixation: autoDraw = False
+33.2149 	EXP 	CueStimulus: text = 'A'
+33.2149 	EXP 	CueStimulus: autoDraw = True
+33.7260 	EXP 	CueStimulus: autoDraw = False
+33.7260 	EXP 	PreTargetFixation: autoDraw = True
+33.8323 	DATA 	Keypress: 1
+39.7350 	EXP 	PreTargetFixation: autoDraw = False
+39.7350 	EXP 	CueStimulus: autoDraw = False
+39.7350 	EXP 	PreTargetFixation: autoDraw = False
+39.7350 	EXP 	ProbetStimulus: text = 'F'
+39.7350 	EXP 	ProbetStimulus: autoDraw = True
+40.9262 	DATA 	Keypress: 1
+41.2110 	EXP 	New trial (rep=0, index=4): OrderedDict([('ConditionFile', 'conditions/BYList.xlsx'), ('TrialType', 'BY'), ('CorrRespTarget', 1.0), ('CorRespCue', 1)])
+41.2317 	EXP 	Imported conditions\trialTiming.xlsx as conditions, 4 conditions, 2 params
+41.2324 	EXP 	Created sequence: fullRandom, trialTypes=4, nReps=1, seed=None
+41.2330 	EXP 	New trial (rep=0, index=0): OrderedDict([('PreCueTime', 1.0), ('ISI', 6)])
+41.2398 	EXP 	ProbetStimulus: autoDraw = False
+41.2398 	EXP 	ProbetStimulus: autoDraw = False
+41.2398 	EXP 	PreCueFixation: autoDraw = True
+42.2685 	EXP 	Imported conditions/BYList.xlsx as conditions, 36 conditions, 3 params
+42.2694 	EXP 	Created sequence: fullRandom, trialTypes=36, nReps=1, seed=None
+42.2699 	EXP 	New trial (rep=0, index=0): OrderedDict([('TrialType', 'BY'), ('Cue', 'T'), ('Probe', 'P')])
+42.2840 	EXP 	PreCueFixation: autoDraw = False
+42.2840 	EXP 	PreCueFixation: autoDraw = False
+42.2840 	EXP 	CueStimulus: text = 'T'
+42.2840 	EXP 	CueStimulus: autoDraw = True
+42.7853 	EXP 	CueStimulus: autoDraw = False
+42.8016 	EXP 	PreTargetFixation: autoDraw = True
+43.7246 	DATA 	Keypress: 1
+48.7869 	EXP 	PreTargetFixation: autoDraw = False
+48.7869 	EXP 	CueStimulus: autoDraw = False
+48.7869 	EXP 	PreTargetFixation: autoDraw = False
+48.7869 	EXP 	ProbetStimulus: text = 'P'
+48.7869 	EXP 	ProbetStimulus: autoDraw = True
+50.2054 	DATA 	Keypress: 1
+50.2680 	EXP 	New trial (rep=1, index=0): None
+50.2787 	EXP 	ProbetStimulus: autoDraw = False
+50.2787 	EXP 	ProbetStimulus: autoDraw = False
+50.2787 	EXP 	blockStartInstructions: autoDraw = True
+62.0251 	DATA 	Keypress: escape
+62.2822 	EXP 	window1: mouseVisible = True
