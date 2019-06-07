@@ -123,6 +123,21 @@
         <Param name="units" updates="None" val="from exp settings" valType="str"/>
         <Param name="wrapWidth" updates="constant" val="" valType="code"/>
       </TextComponent>
+      <CodeComponent name="CueTrigger">
+        <Param name="Begin Experiment" updates="constant" val="" valType="extendedCode"/>
+        <Param name="Begin JS Experiment" updates="constant" val="" valType="extendedCode"/>
+        <Param name="Begin JS Routine" updates="constant" val="" valType="extendedCode"/>
+        <Param name="Begin Routine" updates="constant" val="outlet.push_sample(x=[cueMarker])&amp;#10;" valType="extendedCode"/>
+        <Param name="Code Type" updates="None" val="Py" valType="str"/>
+        <Param name="Each Frame" updates="constant" val="" valType="extendedCode"/>
+        <Param name="Each JS Frame" updates="constant" val="" valType="extendedCode"/>
+        <Param name="End Experiment" updates="constant" val="" valType="extendedCode"/>
+        <Param name="End JS Experiment" updates="constant" val="" valType="extendedCode"/>
+        <Param name="End JS Routine" updates="constant" val="" valType="extendedCode"/>
+        <Param name="End Routine" updates="constant" val="" valType="extendedCode"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="name" updates="None" val="CueTrigger" valType="code"/>
+      </CodeComponent>
     </Routine>
     <Routine name="CTI"/>
     <Routine name="TARGET">
@@ -152,7 +167,7 @@
       </TextComponent>
       <KeyboardComponent name="ProbeResponse">
         <Param name="allowedKeys" updates="constant" val="'1','2'" valType="code"/>
-        <Param name="correctAns" updates="constant" val="" valType="str"/>
+        <Param name="correctAns" updates="constant" val="$CorrRespTarget" valType="str"/>
         <Param name="disabled" updates="None" val="False" valType="bool"/>
         <Param name="discard previous" updates="constant" val="True" valType="bool"/>
         <Param name="durationEstim" updates="None" val="" valType="code"/>
@@ -165,7 +180,7 @@
         <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
         <Param name="stopVal" updates="constant" val="1.5" valType="code"/>
         <Param name="store" updates="constant" val="first key" valType="str"/>
-        <Param name="storeCorrect" updates="constant" val="False" valType="bool"/>
+        <Param name="storeCorrect" updates="constant" val="True" valType="bool"/>
         <Param name="syncScreenRefresh" updates="constant" val="True" valType="bool"/>
       </KeyboardComponent>
       <CodeComponent name="ForceLoopEnds">
@@ -182,6 +197,21 @@
         <Param name="End Routine" updates="constant" val="## force dummy loops to end&amp;#10;subTrial.finished = True&amp;#10;timingLoop.finished = True&amp;#10;&amp;#10;## force dummy loops to save out the condition codes&amp;#10;subTrial.addData('ISI', ISI)&amp;#10;subTrial.addData('PreCueTime', PreCueTime)&amp;#10;subTrial.addData('Probe', Probe)&amp;#10;subTrial.addData('Cue', Cue)&amp;#10;&amp;#10;## i'm using this to control number of trials for development&amp;#10;trialThreshold = 5&amp;#10;count += 1&amp;#10;if count == trialThreshold:&amp;#10;    trialLoop.finished = True" valType="extendedCode"/>
         <Param name="disabled" updates="None" val="False" valType="bool"/>
         <Param name="name" updates="None" val="ForceLoopEnds" valType="code"/>
+      </CodeComponent>
+      <CodeComponent name="TargetTrigger">
+        <Param name="Begin Experiment" updates="constant" val="" valType="extendedCode"/>
+        <Param name="Begin JS Experiment" updates="constant" val="" valType="extendedCode"/>
+        <Param name="Begin JS Routine" updates="constant" val="" valType="extendedCode"/>
+        <Param name="Begin Routine" updates="constant" val="outlet.push_sample(x=[targetMarker])&amp;#10;" valType="extendedCode"/>
+        <Param name="Code Type" updates="None" val="Py" valType="str"/>
+        <Param name="Each Frame" updates="constant" val="" valType="extendedCode"/>
+        <Param name="Each JS Frame" updates="constant" val="" valType="extendedCode"/>
+        <Param name="End Experiment" updates="constant" val="" valType="extendedCode"/>
+        <Param name="End JS Experiment" updates="constant" val="" valType="extendedCode"/>
+        <Param name="End JS Routine" updates="constant" val="" valType="extendedCode"/>
+        <Param name="End Routine" updates="constant" val="" valType="extendedCode"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="name" updates="None" val="TargetTrigger" valType="code"/>
       </CodeComponent>
     </Routine>
     <Routine name="start0">
@@ -242,6 +272,21 @@
         <Param name="storeCorrect" updates="constant" val="False" valType="bool"/>
         <Param name="syncScreenRefresh" updates="constant" val="True" valType="bool"/>
       </KeyboardComponent>
+      <CodeComponent name="lsl_connection">
+        <Param name="Begin Experiment" updates="constant" val="from pylsl import StreamInfo, StreamOutlet # import required classes&amp;#10;info = StreamInfo(name='Trigger', type='Markers', channel_count=1,&amp;#10;channel_format='int32', source_id='Example') # sets variables for object info&amp;#10;outlet = StreamOutlet(info) # initialize stream.&amp;#10;" valType="extendedCode"/>
+        <Param name="Begin JS Experiment" updates="constant" val="" valType="extendedCode"/>
+        <Param name="Begin JS Routine" updates="constant" val="" valType="extendedCode"/>
+        <Param name="Begin Routine" updates="constant" val="" valType="extendedCode"/>
+        <Param name="Code Type" updates="None" val="Py" valType="str"/>
+        <Param name="Each Frame" updates="constant" val="" valType="extendedCode"/>
+        <Param name="Each JS Frame" updates="constant" val="" valType="extendedCode"/>
+        <Param name="End Experiment" updates="constant" val="" valType="extendedCode"/>
+        <Param name="End JS Experiment" updates="constant" val="" valType="extendedCode"/>
+        <Param name="End JS Routine" updates="constant" val="" valType="extendedCode"/>
+        <Param name="End Routine" updates="constant" val="" valType="extendedCode"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="name" updates="None" val="lsl_connection" valType="code"/>
+      </CodeComponent>
     </Routine>
     <Routine name="start1">
       <TextComponent name="basicOverview">
