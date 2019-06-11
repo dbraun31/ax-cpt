@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 """
 This experiment was created using PsychoPy3 Experiment Builder (v3.1.2),
-    on June 07, 2019, at 16:55
+    on June 11, 2019, at 08:53
 If you publish work using this script please cite the PsychoPy publications:
     Peirce, JW (2007) PsychoPy - Psychophysics software in Python.
         Journal of Neuroscience Methods, 162(1-2), 8-13.
@@ -44,7 +44,7 @@ filename = _thisDir + os.sep + u'data/%s_%s_%s' % (expInfo['participant'], expNa
 # An ExperimentHandler isn't essential but helps with data saving
 thisExp = data.ExperimentHandler(name=expName, version='',
     extraInfo=expInfo, runtimeInfo=None,
-    originPath='C:\\Users\\dbrau\\OneDrive - Lehigh University\\Research\\By Semester\\Summer 2019\\NCS\\psychopy\\build\\ax-cpt_lastrun.py',
+    originPath='C:\\Users\\alici\\Documents\\GitHub\\ax-cpt\\ax-cpt_lastrun.py',
     savePickle=True, saveWideText=True,
     dataFileName=filename)
 # save a log file for detail verbose info
@@ -1253,6 +1253,8 @@ for thisBlockLoop in blockLoop:
             
         else:
             subTrial.addData("MindWandering", 1)
+            outlet.push_sample(x=[wanderingMarker])
+        
             
         # keep track of which components have finished
         MindWanderingCatchComponents = [mindWanderingTextDisplay]

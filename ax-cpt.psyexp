@@ -650,7 +650,7 @@
         <Param name="Begin Experiment" updates="constant" val="" valType="extendedCode"/>
         <Param name="Begin JS Experiment" updates="constant" val="" valType="extendedCode"/>
         <Param name="Begin JS Routine" updates="constant" val="" valType="extendedCode"/>
-        <Param name="Begin Routine" updates="constant" val="if mindWandering == False:&amp;#10;    subTrial.addData(&quot;MindWandering&quot;, 0)&amp;#10;    continueRoutine = False&amp;#10;    &amp;#10;else:&amp;#10;    subTrial.addData(&quot;MindWandering&quot;, 1)&amp;#10;    " valType="extendedCode"/>
+        <Param name="Begin Routine" updates="constant" val="if mindWandering == False:&amp;#10;    subTrial.addData(&quot;MindWandering&quot;, 0)&amp;#10;    continueRoutine = False&amp;#10;    &amp;#10;else:&amp;#10;    subTrial.addData(&quot;MindWandering&quot;, 1)&amp;#10;    outlet.push_sample(x=[wanderingMarker])&amp;#10;&amp;#10;    " valType="extendedCode"/>
         <Param name="Code Type" updates="None" val="Py" valType="str"/>
         <Param name="Each Frame" updates="constant" val="" valType="extendedCode"/>
         <Param name="Each JS Frame" updates="constant" val="" valType="extendedCode"/>
