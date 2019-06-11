@@ -45,16 +45,17 @@ At the start of the experiment in the `Welcome` routine is in-line code for conn
 
    Cue  Target
 
-AX 1     7
+AX 2     8
 
-AY 2     8
+AY 3     9
 
-BX 3     9
+BX 4     10
 
-BY 4     10
+BY 5     11
 
-AN 5     11
+AN 6     12
 
-BN 6     12
+BN 7     13
 
-The routine `MindWanderingCatch` sends trigger number 13 for whenever a participant indicates that they are mind wandering.
+The routine `MindWanderingCatch` sends trigger number 14 for whenever a participant indicates that they are mind wandering.
+The routube `Target` sends trigger number 1 at the end of the routine to designate that a Cue-Target pair has been completed. This allows for integration with TurboSatori.

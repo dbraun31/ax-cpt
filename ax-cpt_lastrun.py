@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 """
 This experiment was created using PsychoPy3 Experiment Builder (v3.1.2),
-    on June 11, 2019, at 08:53
+    on June 11, 2019, at 15:08
 If you publish work using this script please cite the PsychoPy publications:
     Peirce, JW (2007) PsychoPy - Psychophysics software in Python.
         Journal of Neuroscience Methods, 162(1-2), 8-13.
@@ -1235,6 +1235,8 @@ for thisBlockLoop in blockLoop:
                 devTrialCount += 1
                 if devTrialCount == trialThreshold and cutTrialLoopShort:
                     trialLoop.finished = True
+                outlet.push_sample(x=[endMarker])
+                
             # completed 1 repeats of 'subTrial'
             
         # completed 1 repeats of 'timingLoop'
