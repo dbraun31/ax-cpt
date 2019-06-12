@@ -39,3 +39,23 @@ Please don't hesistate to contact me with any questions -> dab414@lehigh.edu
 
 Best,
 Dave
+
+**Triggers**
+At the start of the experiment in the `Welcome` routine is in-line code for connecting to lab streaming layer to send triggers to the fnirs machine and to the recording programs. Then in `CUE` and `TARGET` routines, triggers are sent at the onset of each routine and are located in in-line code called `CueTrigger` and `TargetTrigger` respectfully. Cue triggers are numbered 1-6 and target triggers are numbered 7-12. Below is a guide for which numbers related to which Cue-Target patterns. 
+
+   Cue  Target
+
+AX 2     8
+
+AY 3     9
+
+BX 4     10
+
+BY 5     11
+
+AN 6     12
+
+BN 7     13
+
+The routine `MindWanderingCatch` sends trigger number 14 for whenever a participant indicates that they are mind wandering.
+The routube `Target` sends trigger number 1 at the end of the routine to designate that a Cue-Target pair has been completed. This allows for integration with TurboSatori.
